@@ -97,7 +97,7 @@ class MoneyTransferTest {
 
         assertEquals(firstCardBalance, actualBalanceFirstCard);
     }
-    /*@Test
+    @Test
     void shouldNotTransferInvalidAmount() {
         var firstCard = getFirstCardInfo();
         var secondCard = getSecondCardInfo();
@@ -115,6 +115,6 @@ class MoneyTransferTest {
 
         assertEquals(firstCardBalance, actualBalanceFirstCard);
         assertEquals(secondCardBalance, actualBalanceSecondCard);
-    }*/
+    }
 }
 
